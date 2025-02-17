@@ -19,7 +19,10 @@ Para empezar a usar Bootstrap, simplemente incluye los archivos CSS y JavaScript
 ## Clases Más Usadas en Bootstrap
 
 ### Sistema de Rejilla (Grid System)
-- **`.container`**: Contenedor principal que centraliza el contenido y agrega padding horizontal.
+- **`.container .container-fluid`**: Contenedor principal que centraliza el contenido y agrega padding horizontal.
+    - La clase `.container`, crea un contenedor responsivo con un ancho máximo fijo que depende del tamaño del dispositivo.
+     La clase `.container-fluid`, crea un contenedor responsivo que cubre el 100% del ancho de la ventana.
+     - Puedes ver un [ejemplo aquí](contenedores.html).
 - **`.row`**: Contenedor para columnas, creando una fila en el diseño de la rejilla.
 - **`.col`**: Define una columna y se puede usar en combinación con tamaños específicos, por ejemplo, `.col-4` para definir una columna que ocupe 4 partes de 12. 
 - Dimensiones: 
