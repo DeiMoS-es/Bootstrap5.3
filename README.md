@@ -23,7 +23,7 @@ Para empezar a usar Bootstrap, simplemente incluye los archivos CSS y JavaScript
     - La clase `.container`, crea un contenedor responsivo con un ancho máximo fijo que depende del tamaño del dispositivo.
      La clase `.container-fluid`, crea un contenedor responsivo que cubre el 100% del ancho de la ventana.
      - Puedes ver un [ejemplo aquí](contenedores.html).
-- **`.row`**: Contenedor para columnas, creando una fila en el diseño de la rejilla.
+- **`.row`**: Contenedor para columnas, creando una fila en el diseño de la rejilla. Las columnas de los elementos de una fila, deben sumar 12.
 - **`.col`**: Define una columna y se puede usar en combinación con tamaños específicos, por ejemplo, `.col-4` para definir una columna que ocupe 4 partes de 12. 
 - Dimensiones: 
     - `.col-xs-` Muy pequeño < 576px
@@ -34,6 +34,7 @@ Para empezar a usar Bootstrap, simplemente incluye los archivos CSS y JavaScript
     - `.col-xxl-` Extra extra grande >= 1400px
 
 ### Clases de Componentes de UI
+- Es un elemento HTML reutilizable que ya viene con un estilo predefinido.
 - **`.btn`**: Clase base para todos los botones.
   - **`.btn-primary`**: Botón principal, generalmente en color azul.
   - **`.btn-secondary`**: Botón secundario, usualmente en gris.
