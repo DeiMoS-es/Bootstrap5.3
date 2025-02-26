@@ -55,3 +55,28 @@ Para empezar a usar Bootstrap, simplemente incluye los archivos CSS y JavaScript
 - **`.text-right`**: Alinea el texto a la derecha.
 - **`.bg-*`**: Clases para el fondo (background). Ejemplo: `.bg-primary` establece el fondo como el color primario.
 - **`.d-*`**: Clases de visualización (display). Ejemplo: `.d-flex` para utilizar Flexbox.
+
+### Flexbox
+- **Flexbox** es un modelo de diseño que permite a los elementos distribuir el espacio dentro de un contenedor de manera automáticamente y más eficiente y predecible.
+- Bootstrap utiliza Flexbox para crear diseños responsivos y flexibles.
+- Algunas clases de Flexbox en Bootstrap incluyen:
+  - **`.d-flex`**: Activa el modelo de caja flexible.
+  - **`.flex-row`**: Establece la dirección del ejeprincipal en fila.
+  - **`.flex-column`**: Establece la dirección del ejeprincipal en una columna.
+  - **`.justify-content-*`**: Alinea los elementos en el eje principal.
+    - **`.justify-content-start`**: Alinea los elementos al principio.
+    - **`.justify-content-end`**: Alinea los elementos al final.
+    - **`.justify-content-center`**: Alinea los elementos en el centro.
+    - **`.justify-content-between`**: Alinea los elementos con espacio entre ellos.
+    - **`.justify-content-around`**: Alinea los elementos con espacio alrededor de ellos.
+    - **`.justify-content-evenly`**: Alinea los elementos con espacio uniforme entre ellos.
+  - **`.align-items-*`**: Alinea los elementos en el eje perpendicular al eje principal.
+    - **`.align-items-start`**: Alinea los elementos al principio.
+    - **`.align-items-end`**: Alinea los elementos al final.
+    - **`.align-items-center`**: Alinea los elementos en el centro.
+    - **`.align-items-baseline`**: Alinea los elementos en la línea base.
+    - **`.align-items-stretch`**: Estira los elementos para que ocupen todo el espacio disponible.
+  - **`.flex-wrap*`**: Determina si los elementos deben envolverse en múltiples líneas.
+    - **`.flex-wrap`**: Envuelve los elementos en múltiples líneas.
+    - **`.flex-nowrap`**: No envuelve los elementos en múltiples líneas.
+    - **`.flex-wrap-reverse`**: Envuelve los elementos en múltiples líneas en orden inverso.
