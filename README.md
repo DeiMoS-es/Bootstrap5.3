@@ -35,6 +35,8 @@ Para empezar a usar Bootstrap, simplemente incluye los archivos CSS y JavaScript
 
 ### Clases de Componentes de UI
 - Es un elemento HTML reutilizable que ya viene con un estilo predefinido.
+- En el sitio web de [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/), puedes encontrar una lista completa de los componentes disponibles.
+- Puedes comprobar la lista de iconos disponibles de [Bootstrap Icons](https://icons.getbootstrap.com/).
 - **`.btn`**: Clase base para todos los botones.
   - **`.btn-primary`**: Botón principal, generalmente en color azul.
   - **`.btn-secondary`**: Botón secundario, usualmente en gris.
